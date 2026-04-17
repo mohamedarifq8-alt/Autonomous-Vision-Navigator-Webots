@@ -32,9 +32,7 @@ The robot is engineered to autonomously navigate a complex maze using a robust w
 ## 🚀 Installation & Usage
 
 ### 1. Prerequisites
-Ensure you have Python installed and added to your system `PATH`. Install the required computer vision libraries:
-```bash
-pip install opencv-python numpy
+
 ------------------------------------------------------------------------------------------------------------------------
 ### 2. Webots Setup
 * **Clone this repository** to your local machine.
