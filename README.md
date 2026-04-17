@@ -1,3 +1,4 @@
+![Uploading Screenshot 2026-04-17 224406.png…]()
 # Autonomous-Vision-Navigator-Webots
 "Excited to share my latest engineering project! I developed an autonomous maze-solving system for the e-puck robot using Webots. By fusing high-level computer vision (OpenCV) for target tracking with low-level IR sensor data, the robot dynamically navigates obstacles using a right-wall following algorithm until it successfully locates its target. 
 (# Webots e-puck: Autonomous Maze Solver & Target Tracker
@@ -12,6 +13,8 @@ This project demonstrates the integration of **Computer Vision (High-level AI)**
 The robot is engineered to autonomously navigate a complex maze using a robust wall-following algorithm while simultaneously running a real-time object detection pipeline to locate a specific target (a red ball). Once the target is detected, the robot smoothly overrides its navigation protocol to approach and stop at the target.
 
 ## 🎥 Demonstration
+
+![Uploading Screenshot 2026-04-17 224406.png…]()
 
 ## 🧠 Core Engineering Features
 
