@@ -12,7 +12,6 @@ This project demonstrates the integration of **Computer Vision (High-level AI)**
 The robot is engineered to autonomously navigate a complex maze using a robust wall-following algorithm while simultaneously running a real-time object detection pipeline to locate a specific target (a red ball). Once the target is detected, the robot smoothly overrides its navigation protocol to approach and stop at the target.
 
 ## 🎥 Demonstration
-*(Drop your GIF or Video link here showcasing the robot solving the maze and finding the ball)*
 
 ## 🧠 Core Engineering Features
 
