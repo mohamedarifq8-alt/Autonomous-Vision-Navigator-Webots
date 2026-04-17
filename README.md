@@ -34,4 +34,29 @@ The robot is engineered to autonomously navigate a complex maze using a robust w
 ### 1. Prerequisites
 Ensure you have Python installed and added to your system `PATH`. Install the required computer vision libraries:
 ```bash
-pip install opencv-python numpy)
+pip install opencv-python numpy
+2. Webots Setup
+Clone this repository to your local machine.
+
+Open the Webots simulator.
+
+Load the world file located in worlds/your_maze_file.wbt.
+
+Ensure the Webots Python command is correctly set:
+
+Go to Tools -> Preferences -> Python command.
+
+Set it to python.
+
+3. Execution
+Open the controller script controllers/ball_seeker/ball_seeker.py in the Webots text editor.
+
+Click Build (if necessary), then click Reset and Play.
+
+Two debug windows will appear displaying the raw camera feed and the binary AI mask, allowing real-time monitoring of the robot's visual processing.
+
+👨‍💻 Author
+Mohamed Arif Mahyoub Haider.
+Electrical Engineer-Computer and Industrial Control.
+
+This project was built to demonstrate the practical application of bridging software algorithms with physical (simulated) hardware components.)
