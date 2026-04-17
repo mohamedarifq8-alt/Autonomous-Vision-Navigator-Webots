@@ -1,0 +1,106 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/Parquetry.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.0010153359085704734 -0.9999968900762768 0.00227792246740325 5.447383848567105
+  position -3.9770824637811497 -0.6837693548149386 4.266370921198645
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 -0.03 0
+  floorSize 2.5 2.5
+  floorAppearance Parquetry {
+    type "dark strip"
+  }
+}
+Solid {
+  translation -1.17322 -1.20367 0.0491781593618209
+  rotation 0.174920057169394 -0.2821760922240506 -0.9432813082940954 0.31883530717958664
+  children [
+    DEF ball Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.05
+      }
+    }
+  ]
+  boundingObject USE ball
+  physics Physics {
+  }
+  linearVelocity 0 0 5.435385203633733e-17
+}
+E-puck {
+  hidden position_0_0 134.6536359646521
+  hidden position_0_1 117.5747464607905
+  hidden rotation_1 0 -1 0 3.576440793298806
+  hidden rotation_2 0 1 0 4.4774109315579365
+  translation 1.16683 -0.890187 0.000883124
+  rotation -0.00019481799285809564 -0.00018805499310602293 0.999999963340634 3.10626
+  controller "AI-wall-detection"
+  camera_width 100
+  camera_height 100
+  camera_rotation 1 0 0 0
+}
+Wall {
+  translation 0.58 -0.44 0
+  size 0.01 0.6 0.1
+}
+Wall {
+  translation -1.04 -0.79 0
+  rotation 0 0 1 1.5708
+  name "wall(1)"
+  size 0.01 0.4 0.1
+}
+Wall {
+  translation -0.81 0.45 0
+  rotation 0 0 1 1.5708
+  name "wall(2)"
+  size 0.01 0.9 0.1
+}
+Wall {
+  translation 0.71 -0.75 0
+  rotation 0 0 1 1.5708
+  name "wall(3)"
+  size 0.01 1.1 0.1
+}
+Wall {
+  translation -0.54 -0.7 0
+  name "wall(4)"
+  size 0.01 1.1 0.1
+}
+Wall {
+  translation -0.77 1.04 0
+  name "wall(5)"
+  size 0.01 0.4 0.1
+}
+Wall {
+  translation 0.95 -0.23 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "wall(6)"
+  size 0.01 1 0.1
+}
+Wall {
+  translation 0.7 0.63 0
+  rotation 0 0 1 1.5708
+  name "wall(7)"
+  size 0.01 1.1 0.1
+}
+Wall {
+  translation 0.64 1.07 0
+  name "wall(8)"
+  size 0.01 0.4 0.1
+}
